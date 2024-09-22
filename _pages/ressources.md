@@ -2,18 +2,21 @@
 layout: page
 permalink: /ressources/
 title: Ressources
-description: Here are a list of my favorite ressources 
+description: Here is a list of my favorite ressources 
 nav: true
 nav_order: 6
 ---
 
-# Podcasts
+# 🎙️Podcasts
 ## C++
 - CppCast
 - Algorithms + Data Structure = Programming: Hosted by two NVIDIA employees who don't take themselves too seriously
 - C++ Club
 - cpp.chat (discontinued)
+
+## Low-level programming and hardware
 - TLB Hit
+- Microarch Club
 
 ## Programming
 - Two's Complement
@@ -27,7 +30,7 @@ nav_order: 6
 - Acquired: Amazing podcast hosted by two venture capitalists discussing in depth the history of large successful companies.
 - Making Sense with Sam Harris
 
-# Blog
+# 📰 Blog
 ## C++
 - Daily bit(e) of C++
 - Daniel Lemire's blog
@@ -38,3 +41,8 @@ nav_order: 6
 - Eric Niebler
 - Fluent C++
 
+## Quantum Chemistry
+- Joshua Goings
+- Dr. Adam Luke Baskerville
+- Erik KjellGren
+- The Valence Kjell
