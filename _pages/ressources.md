@@ -2,7 +2,7 @@
 layout: page
 permalink: /ressources/
 title: Ressources
-description: Favorite ressources
+description: Here are a list of my favorite ressources 
 nav: true
 nav_order: 6
 ---
@@ -10,7 +10,7 @@ nav_order: 6
 # Podcasts
 ## C++
 - CppCast
-- ADSP
+- Algorithms + Data Structure = Programming: Hosted by two NVIDIA employees who don't take themselves too seriously
 - C++ Club
 - cpp.chat (discontinued)
 - TLB Hit
@@ -24,6 +24,7 @@ nav_order: 6
 - Science in Parallel
 
 ## General
+- Acquired: Amazing podcast hosted by two venture capitalists discussing in depth the history of large successful companies.
 - Making Sense with Sam Harris
 
 # Blog
