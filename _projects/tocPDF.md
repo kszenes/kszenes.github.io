@@ -1,81 +1,34 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+title: tocPDF
+description: Automatic CLI tool for generating an outline of PDFs based on the table of contents. 
+img:
+importance: 4
+category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Problem statement
+Imagine this: you just became fascinated by some new topic in mathematics, say for instance, algebraic topology and you found that the reference textbook that everyone recommends can be downloaded as a PDF from the internet for free. Excited to start you journey in this field you open the PDF and find a nicely structured table of contents (TOC) with all the relevant subjects having there own section. Having found from where you want to start reading, you are eager to jump to that section. But wait! For some reason, the outline that comes with the PDF is empty and therefore you need to manually navigate to the sections of interest and back. Even worse, since the PDF contains a Preface chapter which means that the page numbering only starts on the PDF page 42, you cannot simply use the PDF page to jump to the section. Instead, you need to add an offset to the PDF page which makes this setup even less convenient.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+# The solution
+Not to worry, the `tocPDF` Python tool extracts the table of contents and populates the outline of the PDF with it. In order to achieve this it requires the page corresponding to the start and end of the TOC as well as the offset to the first page numbered with an Arabic numeral. 
+```sh
+tocPDF --start 3 --end 6 --offset 9 example.pdf
+tocPDF -s 3 -e 6 -o 9 example.pdf
 ```
-{% endraw %}
+For certain PDFs, this offset is not constant due to pages missing (particularly between different parts of the book). `tocPDF` can verify that the offset is still accurate by verifying the expected page number matches the one parsed from the PDF. This can be enabled by passing the `-m/--missing_pages` flag:
+```sh
+tocPDF -s 3 -e 6 -o 9 -m example.pdf
+```
+Note that this additional verification will slow down the generation of the outline.
+## TOC Extraction
+`tocPDF` relies on a number of external tools for performing the extraction of the TOC from the PDF:
+- [pdfplumber](https://github.com/jsvine/pdfplumber) (default)
+- [pypdf](https://github.com/py-pdf/pypdf)
+- [tika](https://github.com/chrismattmann/tika-python) (requires Java)
+
+These can be selected using the `-p/--parser` flag:
+```sh
+tocPDF -s 3 -e 6 -o 9 -m -p pypdf example.pdf
+```
+Certain parsers might perform better on certain PDFs. Therefore, if you are not happy with the results, make sure to try running `tocPDF` with a different parser. 
