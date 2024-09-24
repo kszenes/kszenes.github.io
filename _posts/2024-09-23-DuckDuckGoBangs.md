@@ -16,13 +16,7 @@ Since this is how I use search engines 99% of the time, wouldn't it be nice if I
 ```text
 !w titanic
 ```
-{% include video.html path="assets/video/blog/ddg-titanic-example.mp4" class="img-fluid rounded z-depth-1" autoplay=true controls=true %}
-<div class="caption">
-    This saves a ton of time for me on a daily basis.
-</div>
-
 ## Available Bangs
-![bangs](../../../assets/img/blog/ddg-bangs.png)
 DuckDuckGo supports a huge number of websites (13'567 as of the time of writing this blog post) containing all the major websites and also lesser known ones. The list of available bangs can be viewed on their [website](https://duckduckgo.com/bangs) and you can even make a suggestion if your website has not yet been added. In addition, if you use simply a bang plus your search query without the character code, DuckDuckGo redirects you to the first search result (reminiscent of the "I'm feeling lucky" feature of Google). I use this all the time for lesser known websites that have not been cataloged.
 ### Most used bangs
 Here are a list of my some of my most used bangs:
