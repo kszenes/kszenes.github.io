@@ -13,6 +13,8 @@ Imagine this: you just became fascinated by some new topic in quantum physics, s
 # The solution
 Not to worry, I wrote a Python command line tool `tocPDF` to solve precisely this issue. It extracts the TOC found in the PDF and populates the outline of the PDF with it.
 
+{% include video.liquid path="assets/video/projects/tocPDF-example-video.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+
 ## Installation
 The project is hosted on GitHub [tocPDF](github.com/kszenes/tocPDF) and can be installed using `pip`:
 ```sh
