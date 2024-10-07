@@ -9,7 +9,7 @@ related_posts: false
 thumbnail: assets/img/blog/ddg-logo.png
 ---
 # Introduction
-Nowadays, most of the time when I use a search engine, I usually know on which website I want to arrive on but I don't the exact URL. For instance, if I want to learn more about the 17th century Dutch Tulip Mania, I would usually start by checking out its Wikipedia page. Indeed, I would use "tulip mania wiki" as my search query and click on the first link (corresponding to the Wikipedia page). This process is pretty annoying, especially now that one needs to click through all the cookie menus when using Google as the search engine.
+Nowadays, most of the time when I use a search engine, I usually know on which website I want to arrive at, but I don't know the exact URL. For instance, if I want to learn more about the 17th century Dutch Tulip Mania, I would usually start by checking out its Wikipedia page. Indeed, I would use "tulip mania wiki" as my search query and click on the first link (corresponding to the Wikipedia page). This process is pretty annoying, especially now that one needs to click through all the cookie menus when using Google as the search engine.
 # Solution
 {% include video.liquid path="assets/video/blog/ddg-bangs.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Example use cases of DuckDuckGo Bangs." %}
 
@@ -20,7 +20,7 @@ Since this is how I use search engines 99% of the time, wouldn't it be nice if I
 ## Available Bangs
  {% include figure.liquid loading="eager" path="assets/img/blog/ddg-bangs.png" class="img-fluid rounded z-depth-1" %}
 
-DuckDuckGo bangs supports a huge number of websites (13'567 as of the time of writing this blog post) containing all the major websites as well as many lesser known ones. The list of available bangs can be viewed on their [website](https://duckduckgo.com/bangs) and you can even make a suggestion if a website has not yet been added.
+DuckDuckGo Bangs supports a huge number of websites (13'567 as of the time of writing this blog post) containing all the major websites as well as many lesser known ones. The list of available bangs can be viewed on their [website](https://duckduckgo.com/bangs), and you can even make a suggestion if a website has not yet been added.
 Furthermore, if you simply use a bang followed by your search query without any character code, DuckDuckGo redirects you to the first search result (reminiscent of the "I'm feeling lucky" feature of Google). I use this all the time for lesser known websites that have not been cataloged. In addition, this feature can be used when a bang opens up the search results of the target website to directly jump to the desired page (as in the case of cppreference in the last example).
 ### Most used bangs
 Here are a list of my some of my most used bangs:
