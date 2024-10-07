@@ -8,7 +8,7 @@ tags: productivity
 related_posts: false
 thumbnail: assets/img/blog/ddg-logo.png
 ---
-# Problem Statement
+# Introduction
 Nowadays, most of the time when I use a search engine, I usually know on which website I want to arrive on but I don't the exact URL. For instance, if I want to learn more about the 17th century Dutch Tulip Mania, I would usually start by checking out its Wikipedia page. Indeed, I would use "tulip mania wiki" as my search query and click on the first link (corresponding to the Wikipedia page). This process is pretty annoying, especially now that one needs to click through all the cookie menus when using Google as the search engine.
 # Solution
 {% include video.liquid path="assets/video/blog/ddg-bangs.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Example use cases of DuckDuckGo Bangs." %}
