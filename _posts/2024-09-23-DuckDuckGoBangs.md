@@ -36,5 +36,5 @@ Here are a list of my some of my most used bangs:
 Now you might say, this looks cool and all but I don't want to switch my entire search engine to DuckDuckGo because the search results are not as good as Google, with which I would totally agree with. Personally, I use a search engine called StartPage which fetches results from Google without tracking everything you do on the internet. Does this mean you cannot benefit from this cool feature? Far from it, there are a number of plugins for Firefox and Chromium-based web browser plugins which enable you to access this feature while still using your favorite search engine for default queries. The one that I am currently using is [Banger](https://addons.mozilla.org/en-US/firefox/addon/banger/) for Firefox with which I am quite happy. However, there are a number of alternatives that are available by simply searching for "bangs" in the extension store.
 
 ### Mobile
-On mobile, I use the "Yang! Yet Another Bangs" extension for the android Firefox app.
+On mobile, I use the [Yang! Yet Another Bangs](https://addons.mozilla.org/en-US/firefox/addon/yang-addon/) extension for the android Firefox app.
 
