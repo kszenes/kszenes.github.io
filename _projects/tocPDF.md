@@ -4,7 +4,7 @@ title: tocPDF
 description: Automatic CLI tool for generating an outline of PDFs based on the its table of contents. 
 img:
 importance: 4
-category: fun
+category: Fun
 ---
 
 # Introduction
