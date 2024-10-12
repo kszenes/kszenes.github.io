@@ -1,0 +1,236 @@
+{
+  "basics": {
+    "name": "Kalman Joseph Szenes",
+    "label": "PhD Student",
+    "image": "",
+    "email": "kszenes@ethz.ch",
+    "url": "https://kszenes.github.io/",
+    "summary": "PhD student in theoretical chemistry working on tensor network algorithms for electronic structure theory.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ETH Zurich",
+      "position": "PhD Student in Theoretical Chemistry",
+      "url": "",
+      "startDate": "2023",
+      "endDate": "2026",
+      "summary": "Development of tensor network algorithms for applications in quantum chemistry",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "url": "",
+      "area": "",
+      "studyType": "MSc Computation Science and Engineering",
+      "startDate": "2020",
+      "endDate": "2023",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Imperial College London",
+      "location": "London, United Kingdom",
+      "url": "",
+      "area": "",
+      "studyType": "Exchange Year in Chemistry",
+      "startDate": "2019",
+      "endDate": "2020",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "EPFL",
+      "location": "Lausanne, Switzerland",
+      "url": "",
+      "area": "",
+      "studyType": "BSc Chemistry and Chemical Engineergin",
+      "startDate": "2017",
+      "endDate": "2020",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Quantum Computing",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Quantum Information",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Quantum Cryptography",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Quantum Communication",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Quantum Teleportation",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-clipboard-check"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Striking the right balance of encoding electron correlation in the Hamiltonian and the wavefunction ansatz",
+      "publisher": "Faraday Discussion on Correlated Electronic Structure",
+      "releaseDate": "2024",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2024/fd/d4fd00060a",
+      "summary": "Multi-configurational electronic structure theory delivers the most versatile approximations to many-electron wavefunctions, flexible enough to deal with all sorts of transformations, ranging from electronic excitations, to open-shell molecules and chemical reactions. Multi-configurational models are therefore essential to establish universally applicable, predictive ab initio methods for chemistry. Here, we present a discussion of explicit correlation approaches which address the nagging problem of dealing with static and dynamic electron correlation in multi-configurational active-space approaches. We review the latest developments and then point to their key obstacles. Our discussion is supported by new data obtained with tensor network methods. We argue in favor of simple electron-only correlator expressions that may allow one to define transcorrelated models in which the correlator does not bear a dependence on molecular structure."
+    },
+    {
+      "name": "Domain-Specific Implementation of High-Order Discontinuous Galerkin Methods in Spherical Geometry",
+      "publisher": "Computer Physics Communications",
+      "releaseDate": "2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010465523003387",
+      "summary": "In recent years, domain-specific languages (DSLs) have achieved significant success in large-scale efforts to reimplement existing meteorological models in a performance portable manner. The dynamical cores of these models are based on finite difference and finite volume schemes, and existing DSLs are generally limited to supporting only these numerical methods. In the meantime, there have been numerous attempts to use high-order Discontinuous Galerkin (DG) methods for atmospheric dynamics, which are currently largely unsupported in main-stream DSLs. In order to link these developments, we present two domain-specific languages which extend the existing GridTools (GT) ecosystem to high-order DG discretization. The first is a C++-based DSL called G4GT, which, despite being no longer supported, gave us the impetus to implement extensions to the subsequent Python-based production DSL called GT4Py to support the operations needed for DG solvers. As a proof of concept, the shallow water equations in spherical geometry are implemented in both DSLs, thus providing a blueprint for the application of domain-specific languages to the development of global atmospheric models. We believe this is the first GPU-capable DSL implementation of DG in spherical geometry. The results demonstrate that a DSL designed for finite difference/volume methods can be successfully extended to implement a DG solver, while preserving the performance-portability of the DSL."
+    },
+    {
+      "name": "High-Performance and Programmable Attentional Graph Neural Networks with Global Tensor Formulations",
+      "publisher": "Supercomputing",
+      "releaseDate": "2023",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3581784.3607067",
+      "summary": "Graph attention models (A-GNNs), a type of Graph Neural Networks (GNNs), have been shown to be more powerful than simpler convolutional GNNs (C-GNNs). However, A-GNNs are more complex to program and difficult to scale. To address this, we develop a novel mathematical formulation, based on tensors that group all the feature vectors, targeting both training and inference of A-GNNs. The formulation enables straightforward adoption of communication-minimizing routines, it fosters optimizations such as vectorization, and it enables seamless integration with established linear algebra DSLs or libraries such as GraphBLAS. Our implementation uses a data redistribution scheme explicitly developed for sparse-dense tensor operations used heavily in GNNs, and fusing optimizations that further minimize memory usage and communication cost. We ensure theoretical asymptotic reductions in communicated data compared to the established message-passing GNN paradigm. Finally, we provide excellent scalability and speedups of even 4--5x over modern libraries such as Deep Graph Library."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Hungarian",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Russian",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "B2",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
+  ]
+}
