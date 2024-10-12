@@ -13,7 +13,7 @@ nav_order: 6
 
 ### C++
 
-- [CppCast](https://cppcast.com/): The OG C++ podcast currently hosted by Phil Nash and Timur Doumler, both part of the ISO C++ standards committee. They often interview a guest on a particular topic.
+- [CppCast](https://cppcast.com/): The legendary C++ podcast currently hosted by Phil Nash and Timur Doumler, both part of the ISO C++ standards committee. They usually interview a guest on a particular topic related to C++.
 - [Algorithms + Data Structure = Programming](https://adspthepodcast.com/): Hosted by Conor Hoekstra and Bryce Lelbach, two NVIDIA employees that discuss casually various aspects of algorithms and parallel programming.
 - [C++ Club](https://cppclub.uk/): Hosted by various members of the standards committee (including Bjarne Stroustrup!). They discuss current news in the world of C++.
 - [cpp.chat](https://cpp.chat/) (discontinued)
@@ -21,8 +21,8 @@ nav_order: 6
 ### General
 
 - [Two's Complement](https://www.twoscomplement.org/): Matt Godbolt (creater of [Compiler Explorer](https:://gcc.godbolt.org)) and Ben Rady have a casual discussion on various aspects of programming.
-- [CoRecursive](https://corecursive.com/): Adam Gordon Bell eloquently presents a story about some legendary programmer or software.
-- **Software Unscripted**: Richard Feldman (creator of the ROC functional programming language) interviews a guest about various aspects of programming.
+- [CoRecursive](https://corecursive.com/): Adam Gordon Bell hosts a guest that shares a fascinating story behind a piece of software being built.
+- **Software Unscripted**: Richard Feldman (creator of the ROC functional programming language) interviews a guest about diverse topics related to programming.
 - [Programming Throwdowns](https://www.programmingthrowdown.com/)
 - **Developer Stories**
 - [Science in Parallel](https://scienceinparallel.org/episodes/)
@@ -30,8 +30,8 @@ nav_order: 6
 
 ## Low-level programming and hardware
 
-- [TLB Hit](https://tlbh.it/)
-- [Microarch Club](https://microarch.club/)
+- [TLB Hit](https://tlbh.it/): TLB hit is a podcast about systems and compilers by Chris Leary and JF Bastien.
+- [Microarch Club](https://microarch.club/): The art, science, and history of processor design. 
 
 ## General
 
@@ -43,7 +43,7 @@ nav_order: 6
 ## C++
 
 - [Daily bit(e) of C++](https://simontoth.substack.com/): Short articles on essentially every feature in C++
-- [Sutter's Mill](https://herbsutter.com/)
+- [Sutter's Mill](https://herbsutter.com/): The chair of the ISO C++ standards committee, Herb Sutter's, blog about current developments in C++.
 - [Eric Niebler](https://ericniebler.com/)
 - [Fluent C++](https://www.fluentcpp.com/)
 
