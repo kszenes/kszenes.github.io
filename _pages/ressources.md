@@ -28,7 +28,7 @@ nav_order: 6
 - [Science in Parallel](https://scienceinparallel.org/episodes/)
 - [Oxide and Friends](https://oxide.computer/podcasts/oxide-and-friends)
 
-## Low-level programming and hardware
+## Low-Level Programming and Hardware
 
 - [TLB Hit](https://tlbh.it/): TLB hit is a podcast about systems and compilers by Chris Leary and JF Bastien.
 - [Microarch Club](https://microarch.club/): The art, science, and history of processor design. 
@@ -47,9 +47,9 @@ nav_order: 6
 - [Eric Niebler](https://ericniebler.com/)
 - [Fluent C++](https://www.fluentcpp.com/)
 
-## Performance
+## Performance Optimizations
 
-- [Daniel Lemire](https://lemire.me/blog/)
+- [Daniel Lemire](https://lemeire.me/blog/)
 - [Johnny's Software Lab](https://johnnysswlab.com/)
 - [JabPerf Corp](https://www.jabperf.com/blog/)
 - [Denis Bakhalov](https://easyperf.net/notes/)
