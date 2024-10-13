@@ -59,7 +59,7 @@ $ curl cht.sh
 
 ## Example with `grep`
 
-For instance, if you want to see which flag to pass to `grep` in order to find all lines which **don't contain** a specific query, you could consult the cheat sheet for `grep`:
+For instance, if you want to see which flag to pass to `grep` in order to find all lines which **don't contain** a specific search query, you could consult the cheat sheet for `grep`:
 
 ```bash
 $ curl cht.sh/grep
@@ -97,7 +97,7 @@ ps aux | grep -E --color 'bash|$'
 ```
 
 This format of documentation only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
-For our example, the fifth line from `cht.sh` tells us that the `-v` flag can be used to find lines which **do not** contain a pattern.
+For our example, the fifth line from `cht.sh` tells us that the `-v` flag can be used to find lines which **do not** contain a search pattern.
 
 # Combining it with `fzf`
 
