@@ -15,7 +15,7 @@ Do you often find yourself forgetting common flags for command line utilities?
 Would you like to see if there are certain use cases of command line utilities that you haven't even thought of?
 While most programs have extensive documentation in their `man` pages, I think it is fair to say that they are not always the easiest to navigate and can be quite dense.
 
-# Cheat sheet
+# cheat.sh
 
 In comes [cht.sh](https://www.cht.sh), which hosts a community-driven set of cheat sheets for various programming languages, tools and utilities.
 The best part of it is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default.
