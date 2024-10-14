@@ -17,8 +17,8 @@ While most programs have extensive documentation in their `man` pages, I think i
 
 # cheat.sh
 
-In comes [cht.sh](https://www.cht.sh), which hosts a community-driven set of cheat sheets for various programming languages, tools and utilities.
-The best part of it is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default.
+In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), which hosts a community-driven set of cheat sheets for various programming languages, tools and utilities.
+The best part is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default.
 The `cht.sh` homepage serves as a tutorial on how to use the resource and its capabilities:
 
 ```text
@@ -101,28 +101,29 @@ For our example, the fifth line from `cht.sh` tells us that the `-v` flag can be
 
 # Combining it with `fzf`
 
-{% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf" %}
-
 What would be quite neat is to be able to explore the available cheat sheets and dynamically select the desired one and preview it.
 This can be achieved by combining the results from `cht.sh` with the popular [fzf](https://github.com/junegunn/fzf) fuzzy finder command line tool.
+
+{% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf" %}
 
 First, to obtain all available cheat sheets hosted on `cht.sh`, we can use the `:list` query.
 This returns a list of all available cheat sheets which we can then be piped to `fzf` to fuzzy search through the results.
 The currently selected item's cheat sheet may be queried from `cht.sh` and displayed in `fzf`'s preview window.
 
-All this can be simply achieved using a short command:
+All this can be simply achieved using a short command which I aliased to `chtsh` for convenience:
 
 ```bash
-curl -s cht.sh/:list | fzf --preview 'curl -s cht.sh/{}'
+alias chtsh="curl -s cht.sh/:list | fzf --preview 'curl -s cht.sh/{}'"
 ```
 
-Note that the `-s` silences the progress bar of the `curl` command such that it doesn't overlay over the `fzf` windows.
+Note that the `-s` silences the progress bar of the `curl` command such that it is not overlaid on top of the `fzf` window.
+As you can see, the preview window maintains the syntax highlighting from the `curl` command and is fully scrollable.
 
 # `fzf` configuration
 
 `fzf` has a number of customization options that can be used to achieve the desired appearance and workflow.
-These configurations can be either passed as flags to the `fzf` command or set globally in an environment variable `FZF_DEFAULT_OPTS`.
-I use this variable to set the size of the preview window as well as enable vim keybindings for scrolling the preview window:
+These configurations can be either passed as flags to the `fzf` command or set globally in the environment variable `FZF_DEFAULT_OPTS`.
+I use this variable to set the size of the preview window as well as enable vim keybindings for scrolling the preview window (`<C-u>`: up, `<C-d>`: down, etc.):
 
 ```sh
 export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
@@ -132,5 +133,5 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
 
 # Resource
 
-This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) where he develops a similar script to obtain cheat sheets quickly in a new `tmux` window.
-Actually, if you are an avid `tmux` user, both scripts can be combined for a truly convenient experience using the `cht.sh` facilities.
+This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) on combining `cht.sh` with `tmux` using a simple script.
+Actually, if you are an avid `tmux` user, his scripts can be combined with my command for a truly buttery smooth experience using the `cht.sh` facilities.
