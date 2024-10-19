@@ -2,7 +2,7 @@
 layout: post
 title: cheat.sh
 date: 2024-10-21
-description: The online ressource for quickly getting information on programming languages and core utilities and languages
+description: The online ressource for quickly getting information on programming languages and core utilities
 tags: productivity
 # categories: sample-posts
 related_posts: false
@@ -135,8 +135,9 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
                                 ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
 ```
 
-# Resource
+# Source
 
-This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I), which also introduced me to `cht.sh` resource.
+This post is inspired by ThePrimeagen's great YouTube [video](https://www.youtube.com/watch?v=hJzqEAf2U4I), which also introduced me to the `cht.sh` resource.
 In the video, he develops a short script which combines `cht.sh` with `tmux`.
 Actually, if you are an avid `tmux` user, his scripts can be adapted with my command for a truly smooth experience using the `cht.sh` facilities.
+
