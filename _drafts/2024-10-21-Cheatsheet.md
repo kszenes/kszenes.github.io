@@ -1,7 +1,7 @@
 ---
 layout: post
 title: cheat.sh
-date: 2024-10-13
+date: 2024-10-21
 description: The online ressource for quickly getting information on programming languages and core utilities and languages
 tags: productivity
 # categories: sample-posts
@@ -99,8 +99,9 @@ ps aux | grep -E --color 'bash|$'
 ```
 
 This format of documentation only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
-For our example, the fifth line from the excerpt of the `grep` cheat sheet tells us that the `-v` flag can be used to find lines which **don't contain** a search pattern.
-> Note that this only scratching the surface of what `cht.sh` has to offer, and I encourage the interested reader to consult its [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
+For our example, the fifth line from the above excerpt of the `grep` cheat sheet tells us that the `-v` flag is what we are looking for.
+
+> Note that this is only scratching the surface of what `cht.sh` has to offer, and I encourage the interested reader to consult its [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
 
 # Combining it with `fzf`
 
@@ -136,6 +137,6 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
 
 # Resource
 
-This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I), which also introduced me to `cht.sh`.
-In the video, he combines `cht.sh` with `tmux` using a simple script.
-Actually, if you are an avid `tmux` user, his scripts can be adapted with my command for a truly buttery smooth experience using the `cht.sh` facilities.
+This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I), which also introduced me to `cht.sh` resource.
+In the video, he develops a short script which combines `cht.sh` with `tmux`.
+Actually, if you are an avid `tmux` user, his scripts can be adapted with my command for a truly smooth experience using the `cht.sh` facilities.
