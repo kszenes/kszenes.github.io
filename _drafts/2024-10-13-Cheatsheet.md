@@ -2,7 +2,7 @@
 layout: post
 title: cheat.sh
 date: 2024-10-13
-description: The online ressource for quickly getting information on core utilities and languages from anywhere
+description: The online ressource for quickly getting information on programming languages and core utilities and languages
 tags: productivity
 # categories: sample-posts
 related_posts: false
@@ -18,8 +18,8 @@ While most programs contain extensive documentation in their `man` pages, I thin
 # cheat.sh
 
 In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), which is a website that hosts a community-driven set of cheat sheets for most programming languages, tools and utilities.
-The best part is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default.
-The `cht.sh` homepage serves as a tutorial on how to use the resource and its capabilities:
+The best part is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default, so all you really need is an internet connection.
+The `cht.sh` homepage serves as a tutorial on how to use the repository and its capabilities:
 
 ```text
 $ curl cht.sh
@@ -59,7 +59,7 @@ $ curl cht.sh
 
 ## Example with `grep`
 
-For instance, if you want to see which flag to pass to `grep` in order to find all lines which **don't contain** a specific search query, you could consult the cheat sheet for `grep`:
+For instance, if you want to see which flag to pass to `grep` in order to filter all lines in a file which **don't contain** a specific search query, you could consult the cheat sheet for `grep`:
 
 ```bash
 $ curl cht.sh/grep
@@ -94,15 +94,18 @@ ps aux | grep '[h]ttpd'
 
 # Colour in red {bash} and keep all other lines
 ps aux | grep -E --color 'bash|$'
+
+# (...)
 ```
 
 This format of documentation only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
-For our example, the fifth line from `cht.sh` tells us that the `-v` flag can be used to find lines which **don't contain** a search pattern.
+For our example, the fifth line from the excerpt of the `grep` cheat sheet tells us that the `-v` flag can be used to find lines which **don't contain** a search pattern.
+> Note that this only scratching the surface of what `cht.sh` has to offer, and I encourage the interested reader to consult its [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
 
 # Combining it with `fzf`
 
 What would be quite neat is to be able to explore the available cheat sheets and dynamically select the desired one and preview it.
-This can be achieved by combining the results from `cht.sh` with the popular [fzf](https://github.com/junegunn/fzf) fuzzy finder command line tool.
+For this purpose, I wrote a short script to combine the results from `cht.sh` with the popular [fzf](https://github.com/junegunn/fzf) fuzzy finder command line tool.
 
 {% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf" %}
 
