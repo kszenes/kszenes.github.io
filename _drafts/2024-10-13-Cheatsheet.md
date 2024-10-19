@@ -12,12 +12,12 @@ thumbnail: assets/img/blog/chtsh-logo.png
 # Introduction
 
 Do you often find yourself forgetting common flags for command line utilities?
-Would you like to see if there are certain use cases of command line utilities that you haven't even thought of?
-While most programs have extensive documentation in their `man` pages, I think it is fair to say that they are not always the easiest to navigate and can be quite dense.
+Do you wonder if there are certain use cases of command line utilities that you, perhaps, haven't even thought of?
+While most programs contain extensive documentation in their `man` pages, I think that it is fair to say that they are not always the easiest to navigate and can be quite dense.
 
 # cheat.sh
 
-In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), which hosts a community-driven set of cheat sheets for various programming languages, tools and utilities.
+In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), which is a website that hosts a community-driven set of cheat sheets for most programming languages, tools and utilities.
 The best part is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default.
 The `cht.sh` homepage serves as a tutorial on how to use the resource and its capabilities:
 
@@ -97,7 +97,7 @@ ps aux | grep -E --color 'bash|$'
 ```
 
 This format of documentation only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
-For our example, the fifth line from `cht.sh` tells us that the `-v` flag can be used to find lines which **do not** contain a search pattern.
+For our example, the fifth line from `cht.sh` tells us that the `-v` flag can be used to find lines which **don't contain** a search pattern.
 
 # Combining it with `fzf`
 
@@ -107,7 +107,7 @@ This can be achieved by combining the results from `cht.sh` with the popular [fz
 {% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf" %}
 
 First, to obtain all available cheat sheets hosted on `cht.sh`, we can use the `:list` query.
-This returns a list of all available cheat sheets which we can then be piped to `fzf` to fuzzy search through the results.
+This returns a list of all available cheat sheets, which can then be piped to `fzf` to fuzzy search through the results.
 The currently selected item's cheat sheet may be queried from `cht.sh` and displayed in `fzf`'s preview window.
 
 All this can be simply achieved using a short command which I aliased to `chtsh` for convenience:
@@ -117,13 +117,13 @@ alias chtsh="curl -s cht.sh/:list | fzf --preview 'curl -s cht.sh/{}'"
 ```
 
 Note that the `-s` silences the progress bar of the `curl` command such that it is not overlaid on top of the `fzf` window.
-As you can see, the preview window maintains the syntax highlighting from the `curl` command and is fully scrollable.
+The preview window maintains the syntax highlighting from the `curl` command and is fully scrollable.
 
 # `fzf` configuration
 
-`fzf` has a number of customization options that can be used to achieve the desired appearance and workflow.
+`fzf` has a number of customization options that can be used to tweak the desired appearance and workflow to your liking.
 These configurations can be either passed as flags to the `fzf` command or set globally in the environment variable `FZF_DEFAULT_OPTS`.
-I use this variable to set the size of the preview window as well as enable vim keybindings for scrolling the preview window (`<C-u>`: up, `<C-d>`: down, etc.):
+I use this variable to set the size of the preview window as well as enable vim keybindings for scrolling the preview window (e.g., `<C-u>`: up, `<C-d>`: down):
 
 ```sh
 export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
@@ -133,5 +133,6 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
 
 # Resource
 
-This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) on combining `cht.sh` with `tmux` using a simple script.
-Actually, if you are an avid `tmux` user, his scripts can be combined with my command for a truly buttery smooth experience using the `cht.sh` facilities.
+This post is inspired by ThePrimeagen's great [video](https://www.youtube.com/watch?v=hJzqEAf2U4I), which also introduced me to `cht.sh`.
+In the video, he combines `cht.sh` with `tmux` using a simple script.
+Actually, if you are an avid `tmux` user, his scripts can be adapted with my command for a truly buttery smooth experience using the `cht.sh` facilities.
