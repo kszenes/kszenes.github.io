@@ -7,6 +7,7 @@ tags: productivity
 # categories: sample-posts
 related_posts: false
 thumbnail: assets/img/blog/ddg-logo.png
+giscus_comments: true
 ---
 
 # Introduction
