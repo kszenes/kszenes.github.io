@@ -1,8 +1,8 @@
 ---
 layout: post
-title: cheat.sh
-date: 2024-10-21
-description: The online ressource for quickly getting information on programming languages and core utilities
+title: Convenient Online Cheat Sheets
+date: 2024-10-20
+description: The online ressource for quickly getting information on programming languages and command line tools
 tags: productivity
 # categories: sample-posts
 related_posts: false
@@ -11,15 +11,15 @@ thumbnail: assets/img/blog/chtsh-logo.png
 
 # Introduction
 
-Do you often find yourself forgetting common flags for command line utilities?
-Do you wonder if there are certain use cases of command line utilities that you, perhaps, haven't even thought of?
-While most programs contain extensive documentation in their `man` pages, I think that it is fair to say that they are not always the easiest to navigate and can be quite dense.
+Do you often find yourself forgetting common flags for command line interface (CLI) tools?
+Do you wonder if there are certain use cases of terminal utilities that you, perhaps, haven't even thought of?
+While most programs contain extensive documentation in their `man` pages, I think that it is fair to say that this format is not always the easiest to navigate and can be quite dense.
 
 # cheat.sh
 
 In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), which is a website that hosts a community-driven set of cheat sheets for most programming languages, tools and utilities.
 The best part is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default, so all you really need is an internet connection.
-The `cht.sh` homepage serves as a tutorial on how to use the repository and its capabilities:
+The `cht.sh` homepage serves as a tutorial on how to use the repository and exposes its capabilities:
 
 ```text
 $ curl cht.sh
@@ -101,14 +101,16 @@ ps aux | grep -E --color 'bash|$'
 This format of documentation only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
 For our example, the fifth line from the above excerpt of the `grep` cheat sheet tells us that the `-v` flag is what we are looking for.
 
-> Note that this is only scratching the surface of what `cht.sh` has to offer, and I encourage the interested reader to consult its [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
+> Note that, while I mostly use `cht.sh` for quickly finding flags of CLI tools, this is only scratching the surface of what this resource has to offer.
+> For instance, it has an extensive interface for learning programming languages which can be quite useful.
+> I encourage the interested reader to consult the `cht.sh` [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
 
 # Combining it with `fzf`
 
 What would be quite neat is to be able to explore the available cheat sheets and dynamically select the desired one and preview it.
 For this purpose, I wrote a short script to combine the results from `cht.sh` with the popular [fzf](https://github.com/junegunn/fzf) fuzzy finder command line tool.
 
-{% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf" %}
+{% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf." %}
 
 First, to obtain all available cheat sheets hosted on `cht.sh`, we can use the `:list` query.
 This returns a list of all available cheat sheets, which can then be piped to `fzf` to fuzzy search through the results.
@@ -121,11 +123,11 @@ alias chtsh="curl -s cht.sh/:list | fzf --preview 'curl -s cht.sh/{}'"
 ```
 
 Note that the `-s` silences the progress bar of the `curl` command such that it is not overlaid on top of the `fzf` window.
-The preview window maintains the syntax highlighting from the `curl` command and is fully scrollable.
+As shown in the above demo, the preview window maintains the syntax highlighting from the `curl` command and is fully scrollable.
 
 # `fzf` configuration
 
-`fzf` has a number of customization options that can be used to tweak the desired appearance and workflow to your liking.
+`fzf` has a number of customization options that can be used to tweak its appearance and workflow to your liking.
 These configurations can be either passed as flags to the `fzf` command or set globally in the environment variable `FZF_DEFAULT_OPTS`.
 I use this variable to set the size of the preview window as well as enable vim keybindings for scrolling the preview window (e.g., `<C-u>`: up, `<C-d>`: down):
 
@@ -137,7 +139,7 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
 
 # Source
 
-This post is inspired by ThePrimeagen's great YouTube [video](https://www.youtube.com/watch?v=hJzqEAf2U4I), which also introduced me to the `cht.sh` resource.
-In the video, he develops a short script which combines `cht.sh` with `tmux`.
-Actually, if you are an avid `tmux` user, his scripts can be adapted with my command for a truly smooth experience using the `cht.sh` facilities.
+This inspiration for this post comes from a great YouTube [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) by ThePrimeagen, which also introduced me to the `cht.sh` resource.
+In the video, he develops a short script which combines `cht.sh` and `fzf` with `tmux`.
+Actually, if you are an avid `tmux` user, his scripts can be adapted to my command for a truly smooth experience using the `cht.sh` facilities.
 
