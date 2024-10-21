@@ -60,7 +60,7 @@ $ curl cht.sh
 
 ## Example with `grep`
 
-For instance, if you want to see which flag to pass to `grep` in order to filter all lines in a file which **don't contain** a specific search query, you could consult the cheat sheet for `grep`:
+For instance, if you want to see which flag to pass to `grep` in order to filter all lines in a file that **don't contain** a specific search query, you could consult the cheat sheet for `grep`:
 
 ```bash
 $ curl cht.sh/grep
@@ -132,7 +132,7 @@ As shown in the above demo, the preview window maintains the syntax highlighting
 These configurations can be either passed as flags to the `fzf` command or set globally in the environment variable `FZF_DEFAULT_OPTS`.
 I use this variable to configure the location and size of the preview window as well as enable vim keybindings for scrolling the preview window (e.g., `<C-u>`: up, `<C-d>`: down):
 
-```sh
+```bash
 export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
                          --bind ctrl-y:preview-up,ctrl-e:preview-down,\
                                 ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
