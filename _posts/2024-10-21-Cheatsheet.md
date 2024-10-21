@@ -7,7 +7,7 @@ tags: productivity
 # categories: sample-posts
 related_posts: false
 thumbnail: assets/img/blog/chtsh-logo.png
-gisucs_comments: true
+giscus_comments: true
 ---
 
 # Introduction
