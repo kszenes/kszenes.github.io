@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convenient Online Cheat Sheets
-date: 2024-10-20
+date: 2024-10-21
 description: The online ressource for quickly getting information on programming languages and command line tools
 tags: productivity
 # categories: sample-posts
