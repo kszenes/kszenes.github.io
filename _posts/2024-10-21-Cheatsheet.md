@@ -7,6 +7,7 @@ tags: productivity
 # categories: sample-posts
 related_posts: false
 thumbnail: assets/img/blog/chtsh-logo.png
+gisucs_comments: true
 ---
 
 # Introduction
@@ -17,8 +18,8 @@ While most programs contain extensive documentation in their `man` pages, I thin
 
 # cheat.sh
 
-In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), which is a website that hosts a community-driven set of cheat sheets for most programming languages, tools and utilities.
-The best part is that it is made to work seamlessly from the terminal using the `curl` command which is available on most systems by default, so all you really need is an internet connection.
+In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), a website that hosts a community-driven set of cheat sheets for most programming languages, tools and utilities.
+The best part is that it is designed to work seamlessly from the terminal using the `curl` command which is available on most systems by default, so all you really need is an internet connection.
 The `cht.sh` homepage serves as a tutorial on how to use the repository and exposes its capabilities:
 
 ```text
@@ -98,11 +99,11 @@ ps aux | grep -E --color 'bash|$'
 # (...)
 ```
 
-This format of documentation only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
+The cheat sheet only lists the most common commands and doesn't overwhelm the user with every single available option and flag.
 For our example, the fifth line from the above excerpt of the `grep` cheat sheet tells us that the `-v` flag is what we are looking for.
 
 > Note that, while I mostly use `cht.sh` for quickly finding flags of CLI tools, this is only scratching the surface of what this resource has to offer.
-> For instance, it has an extensive interface for learning programming languages which can be quite useful.
+> For instance, it has an extensive interface for learning programming languages, which can be quite useful.
 > I encourage the interested reader to consult the `cht.sh` [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
 
 # Combining it with `fzf`
@@ -113,7 +114,7 @@ For this purpose, I wrote a short script to combine the results from `cht.sh` wi
 {% include video.liquid path="assets/video/blog/chtsh-demo.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true muted=true caption="Demo of cht.sh combined with fzf." %}
 
 First, to obtain all available cheat sheets hosted on `cht.sh`, we can use the `:list` query.
-This returns a list of all available cheat sheets, which can then be piped to `fzf` to fuzzy search through the results.
+This returns a list of all available cheat sheets, which can then be piped to `fzf` in order to fuzzy search through the results.
 The currently selected item's cheat sheet may be queried from `cht.sh` and displayed in `fzf`'s preview window.
 
 All this can be simply achieved using a short command which I aliased to `chtsh` for convenience:
@@ -129,7 +130,7 @@ As shown in the above demo, the preview window maintains the syntax highlighting
 
 `fzf` has a number of customization options that can be used to tweak its appearance and workflow to your liking.
 These configurations can be either passed as flags to the `fzf` command or set globally in the environment variable `FZF_DEFAULT_OPTS`.
-I use this variable to set the size of the preview window as well as enable vim keybindings for scrolling the preview window (e.g., `<C-u>`: up, `<C-d>`: down):
+I use this variable to configure the location and size of the preview window as well as enable vim keybindings for scrolling the preview window (e.g., `<C-u>`: up, `<C-d>`: down):
 
 ```sh
 export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
