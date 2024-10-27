@@ -4,7 +4,7 @@
 
 title: Kalman Szenes # the website title (if blank, full name will be used instead)
 first_name: Kalman
-middle_name: Joseph
+middle_name: 
 last_name: Szenes
 email: szenes.kalman@gmail.com
 description: # the ">" symbol means to ignore newlines until "footer_text:"
