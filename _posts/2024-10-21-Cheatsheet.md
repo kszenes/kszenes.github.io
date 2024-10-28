@@ -134,8 +134,7 @@ I use this variable to configure the location and size of the preview window as 
 
 ```bash
 export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
-                         --bind ctrl-y:preview-up,ctrl-e:preview-down,\
-                                ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
+     --bind ctrl-y:preview-up,ctrl-e:preview-down, ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
 ```
 
 # Source
