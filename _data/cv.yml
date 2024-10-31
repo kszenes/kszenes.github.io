@@ -1,90 +1,84 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Kalman Joseph Szenes
-    - name: Position
-      value: PhD Student in Theoretical Chemistry
-    - name: Languages
-      value: English, French, Russian, Hungarian, German
+  - name: Full Name
+    value: Kalman Joseph Szenes
+  - name: Position
+    value: PhD Student in Theoretical Chemistry
+  - name: Languages
+    value: English, French, Russian, Hungarian, German
 - title: Education
   type: time_table
   contents:
-    - title: PhD Student
-      institution: ETH, Zurich, Switzerland
-      year: 2023-
-      description:
-        Development of tensor network algorithms for applications in quantum chemistry.
-    - title: MSc Computational Science and Engineering
-      institution: ETH, Zurich, Switzerland
-      year: 2020-2023
-      description:
-        Specialization in computational physics with a focus on partial diﬀerential equations and high-performance computing.
-    - title: Exchange Year
-      institution: Imperial College London, London, UK
-      year: 2019-2020
-      description:
-        Advanced topics in physical chemistry.
-    - title: BSc Chemistry and Chemical Engineering
-      institution: EPFL, Lausanne, Switzerland
-      year: 2017-2020
-      description:
-        Fundamental chemistry and engineering with a focus on physical chemistry.
+  - title: PhD Student
+    institution: ETH, Zurich, Switzerland
+    year: 2023-
+    description: Development of tensor network algorithms for applications in quantum chemistry.
+  - title: MSc Computational Science and Engineering
+    institution: ETH, Zurich, Switzerland
+    year: 2020-2023
+    description: Specialization in computational physics with a focus on partial diﬀerential equations and high-performance computing.
+  - title: Exchange Year
+    institution: Imperial College London, London, UK
+    year: 2019-2020
+    description: Advanced topics in physical chemistry.
+  - title: BSc Chemistry and Chemical Engineering
+    institution: EPFL, Lausanne, Switzerland
+    year: 2017-2020
+    description: Fundamental chemistry and engineering with a focus on physical chemistry.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Software Engineer Intern
-      institution: CSCS (Swiss National Supercomputing Centre)
-      year: 03/2022-07/2022
-      description:
-        Implementation of Discontinuous Galerkin schemes for weather and climate simulations using the GPU-enabled DSL <a href="https://github.com/GridTools/gt4py">GT4Py</a>.
+  - title: Research Software Engineer Intern
+    institution: CSCS (Swiss National Supercomputing Centre)
+    year: 03/2022-07/2022
+    description: Implementation of Discontinuous Galerkin schemes for weather and climate simulations using the GPU-enabled DSL <a href="https://github.com/GridTools/gt4py">GT4Py</a>.
 
 - title: Conferences
   type: time_table
   contents:
-    - title: Swiss Chemical Society Fall Meeting
-      institution: Fribourg, Switzerland
-      year: 09/2024
-      description:
-    - title: CECAM Workshop on Tensor Contraction Library Standardization
-      institution: Toulouse, France
-      year: 09/2024
-      description:
-    - title: Faraday Discussion on Correlated Electronic Structure
-      institution: Royal Society of Chemistry, London, UK
-      year: 06/2024
-      description:
-    - title: 17th International Congress of Quantum Chemistry Satellite Meeting on Strong Correlation in Molecules
-      institution: Znojmo, Czech Republic
-      year: 06/2023
-      description:
-    - title: Platform for Advanced Scientific Computing (PASC) 2022
-      institution: Basel, Switzerland
-      year: 06/2022
-      description:
+  - title: Swiss Chemical Society Fall Meeting
+    institution: Fribourg, Switzerland
+    year: 09/2024
+    description:
+  - title: CECAM Workshop on Tensor Contraction Library Standardization
+    institution: Toulouse, France
+    year: 09/2024
+    description:
+  - title: Faraday Discussion on Correlated Electronic Structure
+    institution: Royal Society of Chemistry, London, UK
+    year: 06/2024
+    description:
+  - title: 17th International Congress of Quantum Chemistry Satellite Meeting on Strong Correlation in Molecules
+    institution: Znojmo, Czech Republic
+    year: 06/2023
+    description:
+  - title: Platform for Advanced Scientific Computing (PASC) 2022
+    institution: Basel, Switzerland
+    year: 06/2022
+    description:
 
 - title: Summer Schools
   type: time_table
   contents:
-    - title: Modern Wavefunction Methods
-      institution: University of Pisa, Italy
-      year: 08/2023
-      description:
-    - title: International Summer School on High Performance Computing
-      institution: PRACE, XSEDE, RIKEN, SciNet, EPCC and Pawsey
-      year: 06/2023
-      description:
-    - title: Summer School in Effective HPC and Data Analytics with GPUs
-      institution: CSCS (Swiss National Supercomputing Center)
-      year: 08/2021
-      description:
+  - title: Modern Wavefunction Methods
+    institution: University of Pisa, Italy
+    year: 08/2023
+    description:
+  - title: International Summer School on High Performance Computing
+    institution: PRACE, XSEDE, RIKEN, SciNet, EPCC and Pawsey
+    year: 06/2023
+    description:
+  - title: Summer School in Effective HPC and Data Analytics with GPUs
+    institution: CSCS (Swiss National Supercomputing Center)
+    year: 08/2021
+    description:
 
 - title: Volunteer
   type: time_table
   contents:
-    - title: Tech Support at PASC21 Conference
-      institution: PASC Conference 2021
-      year: 07/2021
-      description:
-        Aided in the logistics of the Platform for Advanced Scientific Computing (PASC) 2021 conference by providing tech support to the online Zoom sessions.
+  - title: Tech Support at PASC21 Conference
+    institution: PASC Conference 2021
+    year: 07/2021
+    description: Aided in the logistics of the Platform for Advanced Scientific Computing (PASC) 2021 conference by providing tech support to the online Zoom sessions.

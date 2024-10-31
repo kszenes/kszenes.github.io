@@ -31,7 +31,7 @@ nav_order: 6
 ## Low-Level Programming and Hardware
 
 - [TLB Hit](https://tlbh.it/): TLB hit is a podcast about systems and compilers by Chris Leary and JF Bastien.
-- [Microarch Club](https://microarch.club/): The art, science, and history of processor design. 
+- [Microarch Club](https://microarch.club/): The art, science, and history of processor design.
 
 ## General
 

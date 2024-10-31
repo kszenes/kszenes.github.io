@@ -4,7 +4,7 @@
 
 title: Kalman Szenes # the website title (if blank, full name will be used instead)
 first_name: Kalman
-middle_name: 
+middle_name:
 last_name: Szenes
 email: szenes.kalman@gmail.com
 description: # the ">" symbol means to ignore newlines until "footer_text:"
@@ -108,7 +108,7 @@ x_username: KJSzenes # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: 
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name:  # blog_name will be displayed in your blog page
-blog_description: 
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -224,54 +224,54 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-  - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
-  - Gemfile
-  - Gemfile.lock
-  - INSTALL.md
-  - LICENSE
-  - lighthouse_results/
-  - package.json
-  - package-lock.json
-  - _pages/about_einstein.md
-  - purgecss.config.js
-  - README.md
-  - readme_preview/
-  - vendor
+- bin/
+- CONTRIBUTING.md
+- CUSTOMIZE.md
+- Dockerfile
+- docker-compose.yml
+- docker-compose-slim.yml
+- FAQ.md
+- Gemfile
+- Gemfile.lock
+- INSTALL.md
+- LICENSE
+- lighthouse_results/
+- package.json
+- package-lock.json
+- _pages/about_einstein.md
+- purgecss.config.js
+- README.md
+- readme_preview/
+- vendor
 keep_files:
-  - CNAME
-  - .nojekyll
+- CNAME
+- .nojekyll
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
+- jekyll-archives
+- jekyll-email-protect
+- jekyll-feed
+- jekyll-get-json
+- jekyll-imagemagick
+- jekyll-jupyter-notebook
+- jekyll-link-attributes
+- jekyll-minifier
+- jekyll-paginate-v2
+- jekyll-regex-replace
+- jekyll/scholar
+- jekyll-sitemap
+- jekyll-tabs
+- jekyll-toc
+- jekyll-twitter-plugin
+- jemoji
 
 # Sitemap settings
 defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
+- scope:
+    path: "assets"
+  values:
+    sitemap: false
 
 sass:
   style: compressed
@@ -341,31 +341,7 @@ enable_publication_badges:
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
-  [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    annotation,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    google_scholar_id,
-    html,
-    inspirehep_id,
-    pdf,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
-  ]
+filtered_bibtex_keywords: [abbr, abstract, additional_info, altmetric, annotation, arxiv, award, award_name, bibtex_show, blog, code, google_scholar_id, html, inspirehep_id, pdf, poster, preview, selected, slides, supp, video, website]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: # leave blank to always show all authors
@@ -394,17 +370,17 @@ external_links:
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
-    - 480
-    - 800
-    - 1400
+  - 480
+  - 800
+  - 1400
   input_directories:
-    - assets/img/
+  - assets/img/
   input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
+  - ".jpg"
+  - ".jpeg"
+  - ".png"
+  - ".tiff"
+  - ".gif"
   output_formats:
     webp: "-quality 85"
 
@@ -627,18 +603,18 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+- data: resume
+  json: assets/json/resume.json   # it can also be an url
 jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+- basics
+- work
+- education
+- publications
+- projects
+- volunteer
+- awards
+- certificates
+- skills
+- languages
+- interests
+- references

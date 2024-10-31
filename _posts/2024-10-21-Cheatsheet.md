@@ -142,4 +142,3 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
 This inspiration for this post comes from a great YouTube [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) by ThePrimeagen, which also introduced me to the `cht.sh` resource.
 In the video, he develops a short script which combines `cht.sh` and `fzf` with `tmux`.
 Actually, if you are an avid `tmux` user, his scripts can be adapted to my command for a truly smooth experience using the `cht.sh` facilities.
-
