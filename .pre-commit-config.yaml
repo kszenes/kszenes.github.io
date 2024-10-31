@@ -19,12 +19,6 @@ repos:
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
   rev: v2.6.0
   hooks:
-  - id: pretty-format-ini
-    args: [--autofix]
-    exclude: tox.ini
-  - id: pretty-format-toml
-    args: [--autofix]
-    exclude: tach.toml
   - id: pretty-format-yaml
     args: [--autofix, --preserve-quotes, --indent, "2"]
 
