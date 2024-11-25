@@ -10,6 +10,7 @@ $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
+$cyan-color-bold: #1f7a9a !default; // A bolder shade of cyan
 $light-cyan-color: lighten($cyan-color, 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
@@ -29,6 +30,9 @@ $grey-900: #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+
+$gruvbox-dark-bg: #0E1018 !default;
+$light-gray-color: #f7f7f7 !default;
 
 // Theme colors
 
