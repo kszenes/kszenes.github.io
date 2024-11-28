@@ -137,6 +137,8 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
      --bind ctrl-y:preview-up,ctrl-e:preview-down, ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
 ```
 
+---
+
 # Source
 
 This inspiration for this post comes from a great YouTube [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) by ThePrimeagen, which also introduced me to the `cht.sh` resource.
