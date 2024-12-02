@@ -37,6 +37,7 @@ nav_order: 6
 
 - [Acquired](https://www.acquired.fm/): Amazing podcast hosted by two venture capitalists discussing in depth the history of large successful companies.
 - [Making Sense with Sam Harris](https://www.samharris.org/podcasts): Sam Harris discusses various topics relating to current events.
+- [Matter of Opinion](https://www.nytimes.com/column/matter-of-opinion): Weekly podcast hosted by opinion columnists from the New York Times.
 
 # 📰 Blogs
 
@@ -60,3 +61,15 @@ nav_order: 6
 - [Erik Kjellgren](https://erikkjellgren.com/blog/)
 - [Dr. Adam Luke Baskerville](https://adambaskerville.github.io/)
 - [The Valence Kjell](https://www.valencekjell.com/)
+
+# 💻 Programming Projects
+
+## Quantum Chemistry
+
+- [Daniel Crawford's C++ Quantum Chemistry Programming Project](https://github.com/CrawfordGroup/ProgrammingProjects): An excellent selection of C++ quantum chemistry projects (14 projects in total!) ranging from implementing basic Hartree--Fock SCF, Moller--Plesset Perturbation and Coupled Cluster Theory to creating your own a plugin for the popular [Psi4](https://github.com/psi4/psi4) quantum chemistry package.
+
+## Performance Engineering
+
+- [Denis Bakhvalov's Performance Ninja Course](https://github.com/dendibakh/perf-ninja): A superb assortment of performance related assignments covering topics in core bound (e.g., vectorization and compiler intrinsics) and memory bound operations (e.g., loop tiling and memory alignment).
+  Also check out his [amazing book](https://book.easyperf.net/perf_book), which has just been updated with the second edition, on "Performance Analysis and Tuning on Modern CPU"!
+  A hard copy can be purchased, but a digital version is also hosted on [GitHub](https://github.com/dendibakh/perf-book)
