@@ -5,6 +5,8 @@ title: Ressources (WIP)
 description: Some of my favorite educational and technical ressources
 nav: true
 nav_order: 6
+toc:
+  sidebar: left
 ---
 
 # 🎙️Podcasts
