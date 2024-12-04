@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in Theoretical Chemistry at the Reiher group, ETH Zurich
+# subtitle:
 
 profile:
   align: right
@@ -15,6 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Vim and C++ enthusiast.
-Interested in the development of new theory and algorithms to solve problems in quantum chemistry.
-Passionate about high-performance computing.
+**PhD student** in **Theoretical Chemistry** at the [Reiher group](https://reiher.ethz.ch/), ETH Zurich
+
+**Vim** and **C++ enthusiast**.
+Interested in the **development** of new **theories** and **algorithms** to solve problems in **quantum chemistry**.
+**Passionate** about **high-performance computing**.
