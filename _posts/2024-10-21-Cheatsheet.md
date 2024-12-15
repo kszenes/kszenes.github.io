@@ -133,8 +133,7 @@ These configurations can be either passed as flags to the `fzf` command or set g
 I use this variable to configure the location and size of the preview window as well as enable vim keybindings for scrolling the preview window (e.g., `<C-u>`: up, `<C-d>`: down):
 
 ```bash
-export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
-     --bind ctrl-y:preview-up,ctrl-e:preview-down, ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
+export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap --bind ctrl-y:preview-up,ctrl-e:preview-down,ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
 ```
 
 ---
