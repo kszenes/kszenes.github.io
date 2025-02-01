@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /ressources/
+permalink: /resources/
 title: Resources
-description: Some of my favorite educational and technical ressources
+description: Some of my favorite educational and technical resources
 nav: true
 nav_order: 6
 toc:
