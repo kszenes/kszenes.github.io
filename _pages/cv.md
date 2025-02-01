@@ -1,11 +1,8 @@
 ---
-layout: cv
-permalink: /cv/
+layout: post
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
 description:
-toc:
-  sidebar: left
+redirect: /assets/pdf/szenes_cv.pdf
 ---
