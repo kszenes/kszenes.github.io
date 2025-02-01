@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /ressources/
-title: Ressources
+title: Resources
 description: Some of my favorite educational and technical ressources
 nav: true
 nav_order: 6
