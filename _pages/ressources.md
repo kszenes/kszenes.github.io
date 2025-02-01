@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /ressources/
-title: Ressources (WIP)
+title: Ressources
 description: Some of my favorite educational and technical ressources
 nav: true
 nav_order: 6
@@ -39,6 +39,7 @@ toc:
 
 - [Acquired](https://www.acquired.fm/): Amazing podcast hosted by two venture capitalists discussing in depth the history of large successful companies.
 - [Making Sense with Sam Harris](https://www.samharris.org/podcasts): Sam Harris discusses various topics relating to current events.
+- [The Ezra Klein Show](https://www.nytimes.com/column/ezra-klein-podcast): New York Times opinion podcast hosted by Ezra Klein.
 - [Matter of Opinion](https://www.nytimes.com/column/matter-of-opinion): Weekly podcast hosted by opinion columnists from the New York Times.
 
 # 📰 Blogs
