@@ -243,6 +243,9 @@ exclude:
 - README.md
 - readme_preview/
 - vendor
+- _news/
+- _drafts.bak/
+
 keep_files:
 - CNAME
 - .nojekyll
