@@ -21,7 +21,7 @@ This approach is highly personalized and may not suit everyone, but I hope reade
 
 ### 🔔 Google Scholar Alerts
 
-Google Scholar is the go-to resource for searching articles on specific topics, tracking an author's publications, and---if you are so inclined---checking your standing in the academic world through various somewhat questionable impact metrics.
+Google Scholar is the go-to resource for searching articles on specific topics, tracking an author's publications, and---if you are so inclined---checking your standing in the academic world through various debatable impact metrics.
 
 Most researchers are aware that Google Scholar allows users to set up **alerts for new publications** based on **search terms**.
 This feature **periodically sends email** notifications with recent papers matching the specified query.
