@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Never Miss an Important Publication
-date: 2025-02-17
+date: 2025-02-01
 description: How I keep up with all the developments in my field of research
 tags: productivity
 # categories: sample-posts
@@ -73,19 +73,21 @@ n addition, RSS is the primary way podcasts are distributed.
 So RSS allows the user to get updates from their favorite websites without having to visit each site individually.
 Thankfully, most journals provide an RSS feed with all the latest publications as they are released.
 This is also the case for common for the arXiv preprint where you can subscribe to a specific topic such as Chemical Physics `physics.chem-ph` (details for accessing arXiv RSS feeds can be found [here](https://info.arxiv.org/help/rss.html)).
-The quality of the feed varies from journal to journal, but most provide the reader with the table of contents image, title, abstract and list of authors.
-This information is usually sufficient to determine the relevance of the article for the user.
+The quality of the feed varies from journal to journal, but most provide the reader with the table of contents (TOC) image, title, abstract and list of authors.
+This information is usually sufficient to determine the relevance of the article to the user.
 
 ##### The Feeder App Reader
 
-- RSS feed logo
-- Feeder page, contains TOC image, author list and abstract
-- This is how I monitor my favorite blogs add link to resources
+There are many options for RSS readers out there but I recommend the open-source [Feeder](https://github.com/spacecowboy/Feeder) app for Android.
+It is add-free and has a clean UI design with a native dark-mode option and extensive customization options for configuring the interface.
+The reader displays the TOC image with the article title and selecting the article will, usually (depending on the RSS feed), provide the reader additionally with the list of authors and abstract.
 
-###### Features
+{% include figure.liquid loading="eager" path="assets/img/blog/feeder-example.jpeg" class="img-fluid rounded z-depth-1" %}
 
-- Open-source
-- Group RSS feeds by topic
-- Even if RSS feed does not provide it, attempts to fetch the articles (might require cookies). Super helpful developer
-- Star favorite article for later read
-- Depending on the RSS feed, if the article is open-access it might even fetch the entire article!
+RSS feeds can be grouped by tags which can be used to categorize them by topic and individual articles of interest can be "starred" in order to save for them later reading.
+The developer is quite responsive and helped me out when I was requesting a feature.
+I use the Feeder app daily to monitor all the important journals as well as my favorite blogs---a list of which you can find on the [Resources](/resources) page.
+
+##### Zotero Integration
+
+As a small comment, the Zotero reference manager has native support for RSS readers which can be quite handy if you are already relying on it for keeping track of important publications.
