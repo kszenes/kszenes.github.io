@@ -9,7 +9,7 @@ category: Fun
 
 ## Description
 
-`h5tui` is a terminal user interface (TUI) application that facilitates the viewing of the contents of HDF5 files.
+[h5tui](https://github.com/kszenes/h5tui/tree/master) is a terminal user interface (TUI) application that facilitates the viewing of the contents of HDF5 files.
 Its design is inspired by vim-motion enabled terminal file managers, such as [ranger](https://github.com/ranger/ranger), [lf](https://github.com/gokcehan/lf) and [yazi](https://github.com/sxyazi/yazi).
 This choice is quite natural since the HDF5 file format also adopts a directory structure for storing the data.
 
