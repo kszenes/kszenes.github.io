@@ -6,7 +6,7 @@ description: How I keep up with all the developments in my field of research
 tags: productivity research
 # categories: sample-posts
 related_posts: false
-thumbnail: assets/img/blog/research-overwhelm.png
+thumbnail: assets/img/blog/research-rss.png
 giscus_comments: true
 ---
 
@@ -33,6 +33,7 @@ Another useful feature is setting up **alerts based on an author's name**.
 If an author has a Google Scholar profile, you can easily follow them by clicking the `Follow` button in the top right corner of their profile.
 
 {% include figure.liquid loading="eager" path="assets/img/blog/gscholar-follow-link.png" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     A random aspiring researcher's Google Scholar page
 </div>
@@ -42,7 +43,6 @@ If a researcher does not have a Google Scholar profile, you can still track thei
 However, despite how it appears, following an author does **not always guarantee** that you will receive **updates solely on their work**.
 **Publications** from researchers with **identical names** are sometimes **mistakenly included** in the alerts.
 
-
 #### 📩 Organizing Email Alerts
 
 Once you have set up alerts for key topics and researchers, **your inbox can quickly become cluttered** with notifications from Google Scholar---especially if you have created numerous alerts.
@@ -51,8 +51,7 @@ To keep things organized, I **use email filters to automatically categorize** th
 In Gmail, I filter all emails from Google Scholar alerts (identified by the email address `scholaralerts-noreply@google.com`) and move them **out of my inbox into a dedicated label**, in my case `.Google Scholar`.
 Since Gmail sorts labels alphabetically, as a personal convention, I prefix all my custom labels with a period (.), which insures that they are grouped together at the top of the `Labels` section in the sidebar menu.
 
-
-#### ⚠️  Downsides of Google Scholar Alerts
+#### ⚠️ Downsides of Google Scholar Alerts
 
 As mentioned earlier, **relying solely on Google Scholar alerts** to stay updated on research developments has its **drawbacks**.
 The system presents a trade-off: subscribing to a broad range of queries results in an overwhelming flood of non-relevant publications, while limiting alerts increases the risk of missing important papers.
@@ -62,12 +61,10 @@ Furthermore, since Google Scholar relies on web crawlers to index new publicatio
 
 While Google Scholar alerts can be a useful tool, they are best used in combination with other strategies to ensure timely and relevant updates.
 
-
 ### 📖 Tracking New Publications from Specific Journals
 
 A highly effective way to stay updated on research is by **following the latest articles** published in **key journals** relevant to your field.
 This method complements the broader search capabilities of Google Scholar and often helps me **discover important papers well before Google Scholar notifies me** of them.
-
 
 #### 📡 RSS Feeds
 
@@ -88,7 +85,7 @@ Websites with RSS feeds publish **updates containing headlines, summaries, and l
 In fact, RSS is the backbone of podcast distribution as well.
 
 With RSS, you can **stay updated on new publications** without visiting each journal's website individually since **most academic journals provide RSS feeds** for their **latest articles**.
-Thankfully, this is also the case for arXiv, where you can subscribe to specific research areas, such as *Chemical Physics* (`physics.chem-ph`).
+Thankfully, this is also the case for arXiv, where you can subscribe to specific research areas, such as _Chemical Physics_ (`physics.chem-ph`).
 More information on accessing specific arXiv RSS feeds are detailed [here](https://info.arxiv.org/help/rss.html).
 
 The quality of RSS feeds varies from journal to journal, but most include a **table of contents (TOC) image, article title, abstract, and author list**.
@@ -116,11 +113,9 @@ The app is actively maintained---I personally reached out to the developer with 
 
 I use Feeder as part of my morning routine to **monitor key journals** as well as my **favorite blogs**---a list of which you can find on my [Resources](/resources) page.
 
-
 ##### 📚 Zotero Integration
 
 As a side note, if you are already using Zotero to manage your research papers, you will be happy to know that it has **built-in RSS support**, making it even easier to track and organize important publications.
-
 
 ## 🔍 Wrapping Up
 
