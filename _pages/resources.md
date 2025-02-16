@@ -75,4 +75,4 @@ toc:
 
 - [Denis Bakhvalov's Performance Ninja Course](https://github.com/dendibakh/perf-ninja): A superb assortment of performance related assignments covering topics in core bound (e.g., vectorization and compiler intrinsics) and memory bound operations (e.g., loop tiling and memory alignment).
   Also check out his amazing book on "Performance Analysis and Tuning on Modern CPU", which has just been updated with the [second edition](https://github.com/dendibakh/perf-book/releases/tag/2.0_release).
-  A hard copy of the book can be purchased from Amazon, but a digital version is also hosted on [GitHub](https://github.com/dendibakh/perf-book/releases/tag/2.0_release)
+  A hard copy of the book can be purchased from Amazon, but a digital version is also hosted on [GitHub](https://github.com/dendibakh/perf-book/releases/tag/2.0_release).
