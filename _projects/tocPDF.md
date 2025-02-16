@@ -1,7 +1,7 @@
 ---
 layout: page
 title: tocPDF
-description: CLI tool for generating missing PDF outline based on the Table of Contents from the PDF.
+description: CLI tool for generating missing PDF outline based on parsing Table of Contents from the PDF.
 img:
 importance: 4
 category: Fun
