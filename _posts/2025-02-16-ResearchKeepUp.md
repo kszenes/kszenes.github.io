@@ -105,7 +105,7 @@ Feeder displays the **TOC image** alongside the article **title**, and selecting
     <img src="/assets/img/blog/feeder-example.jpeg" style="max-width: 300px; height: auto;" />
 </div>
 <div class="caption">
-    Example of the Feeder UI for the <em>J. Chem. Theory Comput.</em> journal
+    Example of the Feeder UI for the <em>J. Chem. Theory Comput.</em> journal's RSS feed
 </div>
 
 If the article is **open-access**, Feeder can even **fetch the entire article** such that you can read directly from the app.
