@@ -33,6 +33,9 @@ Another useful feature is setting up **alerts based on an author's name**.
 If an author has a Google Scholar profile, you can easily follow them by clicking the `Follow` button in the top right corner of their profile.
 
 {% include figure.liquid loading="eager" path="assets/img/blog/gscholar-follow-link.png" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    A random aspiring researcher's Google Scholar page
+</div>
 
 If a researcher does not have a Google Scholar profile, you can still track their publications by setting up an alert for their name.
 
@@ -99,10 +102,10 @@ It is **ad-free**, features a **clean UI** with a native dark mode, and offers *
 Feeder displays the **TOC image** alongside the article **title**, and selecting an article will (depending on the RSS feed) also show the **author list and abstract**.
 
 <div style="display: flex; justify-content: center;">
-    <img src="/assets/img/blog/feeder-example.jpeg" style="max-width: 400px; height: auto;" />
+    <img src="/assets/img/blog/feeder-example.jpeg" style="max-width: 300px; height: auto;" />
 </div>
 <div class="caption">
-    Example of the Feeder UI for the <em>J. Chem. Theory Comput.</em> journal.
+    Example of the Feeder UI for the <em>J. Chem. Theory Comput.</em> journal
 </div>
 
 If the article is **open-access**, Feeder can even **fetch the entire article** such that you can read directly from the app.
