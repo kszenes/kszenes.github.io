@@ -10,13 +10,13 @@ thumbnail: assets/img/blog/chtsh-logo.png
 giscus_comments: true
 ---
 
-# Introduction
+## Introduction
 
 Do you often find yourself forgetting common flags for command line interface (CLI) tools?
 Do you wonder if there are certain use cases of terminal utilities that you, perhaps, haven't even thought of?
 While most programs contain extensive documentation in their `man` pages, I think that it is fair to say that this format is not always the easiest to navigate and can be quite dense.
 
-# cheat.sh
+## cheat.sh
 
 In comes [cheat.sh](https://www.cht.sh) (or `cht.sh` for short), a website that hosts a community-driven set of cheat sheets for most programming languages, tools and utilities.
 The best part is that it is designed to work seamlessly from the terminal using the `curl` command which is available on most systems by default, so all you really need is an internet connection.
@@ -58,7 +58,7 @@ $ curl cht.sh
 [Follow @igor_chubin for updates][github.com/chubin/cheat.sh]
 ```
 
-## Example with `grep`
+### Example with `grep`
 
 For instance, if you want to see which flag to pass to `grep` in order to filter all lines in a file that **don't contain** a specific search query, you could consult the cheat sheet for `grep`:
 
@@ -106,7 +106,7 @@ For our example, the fifth line from the above excerpt of the `grep` cheat sheet
 > For instance, it has an extensive interface for learning programming languages, which can be quite useful.
 > I encourage the interested reader to consult the `cht.sh` [documentation](https://github.com/chubin/cheat.sh?tab=readme-ov-file) for further use cases.
 
-# Combining it with `fzf`
+## Combining it with `fzf`
 
 What would be quite neat is to be able to explore the available cheat sheets and dynamically select the desired one and preview it.
 For this purpose, I wrote a short script to combine the results from `cht.sh` with the popular [fzf](https://github.com/junegunn/fzf) fuzzy finder command line tool.
@@ -126,7 +126,7 @@ alias chtsh="curl -s cht.sh/:list | fzf --preview 'curl -s cht.sh/{}'"
 Note that the `-s` silences the progress bar of the `curl` command such that it is not overlaid on top of the `fzf` window.
 As shown in the above demo, the preview window maintains the syntax highlighting from the `curl` command and is fully scrollable.
 
-# `fzf` configuration
+## `fzf` configuration
 
 `fzf` has a number of customization options that can be used to tweak its appearance and workflow to your liking.
 These configurations can be either passed as flags to the `fzf` command or set globally in the environment variable `FZF_DEFAULT_OPTS`.
@@ -139,7 +139,7 @@ export FZF_DEFAULT_OPTS="--preview-window=right,80%:wrap \
 
 ---
 
-# Source
+## Source
 
 This inspiration for this post comes from a great YouTube [video](https://www.youtube.com/watch?v=hJzqEAf2U4I) by ThePrimeagen, which also introduced me to the `cht.sh` resource.
 In the video, he develops a short script which combines `cht.sh` and `fzf` with `tmux`.

@@ -35,6 +35,14 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  // recommended by chatGPT
+  --global-h1-color: #fb4934;
+  --global-h2-color: #b8bb26;
+  --global-h3-color: #fabd2f;
+  --global-h4-color: #83a598;
+  --global-h5-color: #d3869b;
+  --global-h6-color: #fe8019;
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -70,7 +78,7 @@
 html[data-theme="dark"] {
   --global-bg-color: #{$gruv-bg-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$gruv-fg-dark};
+  --global-text-color: #{$gruv-fg-dark-contrast};
   --global-text-color-light: #{$gruv-grey-bright};
   --global-theme-color: #{$gruv-cyan-bright};
   --global-hover-color: #{$gruv-cyan-bright};
@@ -98,6 +106,8 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+  --global-red-color: #{$red-color-dark};
 
   .repo-img-light {
     display: none;
