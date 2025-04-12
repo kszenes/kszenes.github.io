@@ -2,9 +2,10 @@
 layout: page
 title: h5tui
 description: A terminal user interface (TUI) application for navigating and viewing HDF5 files.
-img:
+img: assets/img/projects/h5tui-logo.png
 importance: 4
 category: Fun
+redirect: https://github.com/kszenes/h5tui
 ---
 
 ## Description
