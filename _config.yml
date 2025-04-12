@@ -11,7 +11,7 @@ description: # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: dmrg, vim, cpp, c++, quantum-chemistry # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧪 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kszenes.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -92,7 +92,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: Kalman Szenes # your Google Scholar ID
+scholar_userid: C4FewEAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id

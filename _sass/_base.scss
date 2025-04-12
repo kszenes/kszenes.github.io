@@ -163,6 +163,15 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
+
+  &.block-quote {
+    background: var(--global-bg-color);
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 0px;
+    margin: 1.5em 0;
+    padding: 0em 1em;
+    font-size: 0.9rem;
+  }
 }
 
 // Checklist
