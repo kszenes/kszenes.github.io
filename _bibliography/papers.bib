@@ -1,5 +1,16 @@
 ---
 ---
+@article{Lee2026Sep,
+  author        = {Lee, Joseph K. L. and Malekmohammadi, Mehrdad and Zheng, Hong-Sheng and Shu, Shuli and Doumbia, Cheick and Szenes, Kalman and Abnili, Mehran Zamani and Ainsworth, Thomas and Seymour, Matthew and Germain, Thomas and Neuhaus, Leonhard and Izaac, Josh and O'Riordan, Lee J.},
+  title         = {{Python in the front, party in the Backline: compiling quantum workloads across CPUs, GPUs, and FPGAs}},
+  journal       = {arXiv},
+  abstract      = {Moving from quantum research and development to production-grade, fault-tolerant quantum workload execution remains one of the most significant challenges facing quantum platform builders. While Python frameworks have enabled an easy entry point for quantum algorithm design, the low-latency requirements for real-time quantum error correction (QEC) demand performance that traditional interpreted environments cannot provide. FPGAs and ASICs play a central role at these layers, but their specialized programming models make development rigid and time-consuming. CPUs, GPUs, and other accelerators introduce a different challenge: as infrastructure becomes increasingly heterogeneous, programming across different devices and their associated abstractions becomes more complex. Designing abstractions that allow researchers to write workloads in high-level languages that map to low-latency execution across diverse distributed target platforms will enable the development of key infrastructure for utility-scale quantum systems. For this, we introduce Backline, a heterogeneous compilation and runtime framework built within PennyLane and Catalyst. Backline allows us to design and build quantum-classical workloads for high-performance and low-latency devices, with compilation directly from a Python interface through MLIR. We demonstrate the compilation and execution of several quantum workloads with low-latency data movement across a mix of CPUs, GPUs, and FPGAs, efficiently handled for both local and distributed remote hardware targets, all from a vendor-agnostic Python frontend. With an AMD VPK120 FPGA board as the controller, issuing each round from its hardware-handshake engine, we measured median steady-state round-trip latencies over RoCE v2 of 2.305 μs to an AMD Ryzen Threadripper PRO CPU and 4.5 μs to an AMD Instinct MI210 GPU across 106-1 rounds per path, demonstrating microsecond-scale synchronous co-processing.},
+  year          = {2026},
+  selected      = {true},
+  bibtex_show   = {true},
+  html          = {https://doi.org/10.48550/arXiv.2609.09270},
+  preview       = {backline-toc.jpg}
+}
 @article{Vogiatzis2026Feb,
   author        = {Vogiatzis, Konstantinos D. and Corminboeuf, Cl\'{e}mence and Nova, Ainara and Jorner, Kjell and K\"{a}stner, Johannes and Meuwly, Markus and Schwaller, Philippe and B\"{o}ttcher, Victor and Drosou, Maria and Fako, Edvin and Hoppe, Hannes and Ivkovic, Zarko and Iwanojko, Nestor and Pantazis, Dimitrios A. and Schmid, Stefan P. and Szenes, Kalman and Tetenoire, Auguste and Reiher, Markus},
   title         = {{Boosting Computational Catalysis and Chemical Reactivity with Artificial Intelligence}},
