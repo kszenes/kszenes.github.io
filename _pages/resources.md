@@ -20,6 +20,10 @@ toc:
 - [C++ Club](https://cppclub.uk/): Hosted by various members of the standards committee (including Bjarne Stroustrup!). They discuss current news in the world of C++.
 - [cpp.chat](https://cpp.chat/) (discontinued)
 
+#### AI
+
+- [Big Technology Podcast](https://podcasts.apple.com/ch/podcast/big-technology-podcast/id1522960417): Technology podcast focused on AI news and topics, such as safety, agents, AI economics.
+
 #### General
 
 - [Two's Complement](https://www.twoscomplement.org/): Matt Godbolt (creater of [Compiler Explorer](https:://gcc.godbolt.org)) and Ben Rady have a casual discussion on various aspects of programming.
